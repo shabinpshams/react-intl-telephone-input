@@ -1,8 +1,40 @@
 {
   "name": "react-intl-telephone-input",
   "version": "0.1.0",
-  "private": true,
+  "description": "Telephone input component. Rewrite intl-tel-input in React.js.",
+  "author": "patw",
+  "private": false,
+  "contributors": [
+    {
+      "name": "Shabin Shamsudeen",
+      "email": "shabinpshams@gmail.com",
+      "url": "https://shabinpshams.github.io"
+    }
+  ],
+  "keywords": [
+    "react",
+    "react-component",
+    "tel",
+    "telephone",
+    "intl-tel-input",
+    "international-telephone-input",
+    "phonenumber",
+    "intl-telephone-input"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "peerDependencies": {
+    "react": ">17.0.0 <18.2.0",
+    "react-dom": ">17.0.0 <18.2.0"
+  },
+  "files": [
+    "dist/**/*"
+  ],
   "dependencies": {
+    "classnames": "^2.3.2",
+    "libphonenumber-js-utils": "^8.10.5",
+    "prop-types": "^15.8.1",
+    "react-style-proptype": "^3.2.2",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -36,3 +68,4 @@
     ]
   }
 }
+
