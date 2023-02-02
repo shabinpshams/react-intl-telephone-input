@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import classNames from 'classnames'
-import _ from 'underscore.deferred'
+// import _ from 'underscore.deferred'
 import StylePropTypes from 'react-style-proptype'
 import AllCountries from './AllCountries'
 import FlagDropDown from './FlagDropDown'
